@@ -1,0 +1,26 @@
+{
+    "name": "poc-decide-harvester-filter-service",
+    "version": "0.1.6",
+    "description": "Customizable filet service to filter relevant triples",
+    "type": "module",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lblod/poc-decide-harvester-filter-service.git"
+    },
+    "author": "info@redpencil.io",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lblod/poc-decide-harvester-filter-service/issues"
+    },
+    "homepage": "https://github.com/lblod/poc-decide-harvester-filter-service#readme",
+    "dependencies": {
+        "@lblod/mu-auth-sudo": "0.6.2",
+        "fs-extra": "^9.0.1",
+        "n3": "^1.26.0",
+        "node-fetch": "^2.6.1"
+    }
+}
